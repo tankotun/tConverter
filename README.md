@@ -1,5 +1,6 @@
 <h1>tConverter</h1>
 <p>A simple PHP unit converter.</p>
+<p>Developed by @tankotun</p>
 <p>Supported Units: Weight, Length</p>
 <br/>
 <h3>First, require and start class.</h3>
