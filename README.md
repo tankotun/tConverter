@@ -42,3 +42,4 @@ try {
   
 }
 </code></pre>
+<i>Exception catches posted empty units and invalid numerics.</i>
