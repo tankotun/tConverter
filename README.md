@@ -5,17 +5,17 @@
 <em>But if you want to add another units, you can it by $units array in tConverter class.</em></p>
 <br/>
 <h3>First, require and start class.</h3>
-<pre><code>// Require
+```php
+// Require
 
 require "tConverter.class.php";
 
 // Then, start the class.
-$tConverter = new tConverter();</code>
-</pre>
+$tConverter = new tConverter();
+```
 
 <h3>How to convert?</h3>
-<div class="highlight highlight-js">
-<pre><code>
+```php
 $result = $tConverter->convert(
   'length',    // This is unit type. We chose length. (or you can choose 'weight')
   array('2', 'km'),    // From... 2 kilometers
@@ -23,12 +23,12 @@ $result = $tConverter->convert(
 );
 
 echo 'Result: ' . $result;
-</code></pre></div>
+```
 Print:
 <pre>Result: 2000</pre>
 
 <h3>Use with Exception</h3>
-<pre><code>
+```php
 try {
 
   $result = $tConverter->convert(
@@ -44,7 +44,7 @@ try {
   echo $e->getMessage();
   
 }
-</code></pre>
+```
 <i>Exception catches posted empty units and invalid numerics.</i>
 
 <h3>Units List</h3>
@@ -67,7 +67,3 @@ terametre     |
 <br/>
 God bless open source programmers.
 
-
-```php
-echo $yar;
-```
