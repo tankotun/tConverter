@@ -18,5 +18,7 @@ $result = $tConverter->convert(
   'm'   // To meters...
 );
 
-echo 'Result' . $result;
+echo 'Result: ' . $result;
 </code></pre>
+Print:
+<pre>Result: 2000</pre>
