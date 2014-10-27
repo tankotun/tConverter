@@ -6,8 +6,9 @@
 <br/>
 <h3>First, require and start class.</h3>
 <pre><code>// Require
+```
 require "tConverter.class.php";
-
+```
 // Then, start the class.
 $tConverter = new tConverter();</code>
 </pre>
