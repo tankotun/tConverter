@@ -3,6 +3,8 @@
 <p>Supported Units: Weight, Length</p>
 <br/><br/>
 <h3>First, require class file.</h3>
-<pre><code><?php
+<pre>
+<code>
 require "tConverter.class.php";
-?></code></pre>
+</code>
+</pre>
