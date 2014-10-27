@@ -47,37 +47,13 @@ try {
 <i>Exception catches posted empty units and invalid numerics.</i>
 
 <h3>Units List</h3>
-<pre><strong>Length:</strong>
-pikometre
-nanometre
-milimetre
-santimetre
-desimetre
-metre
-dekametre
-hektometre
-kilometre
-gigametre
-terametre
-
-<strong>Weight:</strong>
-miligram
-gram
-kilogram
-ton
-</pre>
-
-<br/>
-God bless open source programmers.
-
-
 
 Length        | Second Header
 ------------- | -------------
-pikometre     |
-nanometre     |
-milimetre     |
-santimetre    | 
+pikometre     |miligram
+nanometre     |gram
+milimetre     |kilogram
+santimetre    |ton
 desimetre     |
 metre         |
 dekametre     |
@@ -85,3 +61,7 @@ hektometre    |
 kilometre     |
 gigametre     |
 terametre     |
+
+
+<br/>
+God bless open source programmers.
