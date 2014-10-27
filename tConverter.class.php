@@ -22,13 +22,13 @@ class tConverter extends tConverterException {
 		'length'	=> array(
 			'pm'		=> 0.000000000001,	// Pikometre
 			'nm'		=> 0.000000001,		// Nanometre
-			'mm'		=> 0.001,			// Milimetre
-			'cm'		=> 0.01,			// Santimetre
-			'dm'		=> 0.1,				// Desimetre
-			'm'			=> 1,				// Metre
-			'dam'		=> 10,				// Dekametre
-			'hm'		=> 100,				// Hektometre
-			'km'		=> 1000,			// Kilometre
+			'mm'		=> 0.001,		// Milimetre
+			'cm'		=> 0.01,		// Santimetre
+			'dm'		=> 0.1,			// Desimetre
+			'm'		=> 1,			// Metre
+			'dam'		=> 10,			// Dekametre
+			'hm'		=> 100,			// Hektometre
+			'km'		=> 1000,		// Kilometre
 			'gm'		=> 1000000000,		// Gigametre
 			'tm'		=> 1000000000000	// Terametre
 		),
@@ -36,7 +36,7 @@ class tConverter extends tConverterException {
 		# weight unit array
 		'weight'	=> array(
 			'mg'		=> 0.001,			// Miligram
-			'g'			=> 1,				// Gram
+			'g'		=> 1,				// Gram
 			'kg'		=> 1000,			// Kilogram
 			'ton'		=> 1000000,			// Ton
 		)
