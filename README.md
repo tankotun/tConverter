@@ -6,9 +6,7 @@
 Once, require file...
 <pre><code>// Require
 require "tConverter.class.php";
-</code></pre>
 
-<br/>
-<pre>// Then, start the class.
-<code>$tConverter = new tConverter();</code>
+// Then, start the class.
+$tConverter = new tConverter();</code>
 </pre>
