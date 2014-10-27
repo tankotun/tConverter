@@ -5,7 +5,7 @@
 *	Project:	tConvert - A simple PHP unit converter class.
 *	Author:		Taner Tuncer (@tankotun)
 *	Version:	1.0
-*	Homepage:	github.com/tankotun/php-unit-converter
+*	Homepage:	https://github.com/tanertuncer/tConverter
 *	Created:	26.Oct.2014
 *------------------------------------------------------------------
 */
