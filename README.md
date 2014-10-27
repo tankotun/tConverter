@@ -46,5 +46,21 @@ try {
 
 <h3>Units List</h3>
 <pre><strong>Length:</strong>
-sd
+pikometre
+nanometre
+milimetre
+santimetre
+desimetre
+metre
+dekametre
+hektometre
+kilometre
+gigametre
+terametre
+
+<strong>Weight:</strong>
+miligram
+gram
+kilogram
+ton
 </pre>
