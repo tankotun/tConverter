@@ -4,4 +4,5 @@
 <br/><br/>
 <h3>First, require class file.</h3>
 <code><?php
-require "tConverter.class.php";</code>
+require "tConverter.class.php";
+?></code>
