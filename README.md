@@ -15,7 +15,7 @@ $tConverter = new tConverter();</code>
 <h3>How to convert?</h3>
 <pre><code>
 $result = $tConverter->convert(
-  'length',    // This is unit type. We chose length.
+  'length',    // This is unit type. We chose length. (or you can choose 'weight')
   array('2', 'km'),    // From... 2 kilometers
   'm'   // To meters...
 );
