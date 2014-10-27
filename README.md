@@ -13,6 +13,7 @@ $tConverter = new tConverter();</code>
 </pre>
 
 <h3>How to convert?</h3>
+<div class="highlight highlight-javascript">
 <pre><code>
 $result = $tConverter->convert(
   'length',    // This is unit type. We chose length. (or you can choose 'weight')
@@ -21,7 +22,7 @@ $result = $tConverter->convert(
 );
 
 echo 'Result: ' . $result;
-</code></pre>
+</code></pre></div>
 Print:
 <pre>Result: 2000</pre>
 
