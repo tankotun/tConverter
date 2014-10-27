@@ -8,5 +8,6 @@ Once, require file...
 require "tConverter.class.php";
 </code>
 <br/>
-Then, start the class.
+<pre>Then, start the class.
 <code>$tConverter = new tConverter();</code>
+</pre>
