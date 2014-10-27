@@ -23,3 +23,22 @@ echo 'Result: ' . $result;
 </code></pre>
 Print:
 <pre>Result: 2000</pre>
+
+<h3>Use with Exception</h3>
+<pre><code>
+try {
+
+  $result = $tConverter->convert(
+    'length',    // This is unit type. We chose length.
+    array('2', 'km'),    // From... 2 kilometers
+    'm'   // To meters...
+  );
+  
+  echo 'Result: ' . $result;
+
+} catch (tConverterException $e) {
+
+  echo $e->getMessage();
+  
+}
+</code></pre>
