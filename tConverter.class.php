@@ -35,10 +35,10 @@ class tConverter extends tConverterException {
 
 		# weight unit array
 		'weight'	=> array(
-			'mg'		=> 0.001,			// Miligram
-			'g'		=> 1,				// Gram
-			'kg'		=> 1000,			// Kilogram
-			'ton'		=> 1000000,			// Ton
+			'mg'		=> 0.001,		// Miligram
+			'g'		=> 1,			// Gram
+			'kg'		=> 1000,		// Kilogram
+			'ton'		=> 1000000,		// Ton
 		)
 
 	);
