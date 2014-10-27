@@ -4,10 +4,11 @@
 <br/><br/>
 <h3>Require and start class.</h3>
 Once, require file...
-<code>
+<pre><code>// Require
 require "tConverter.class.php";
-</code>
+</code></pre>
+
 <br/>
-<pre>Then, start the class.
+<pre>// Then, start the class.
 <code>$tConverter = new tConverter();</code>
 </pre>
