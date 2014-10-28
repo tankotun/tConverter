@@ -38,7 +38,7 @@ class tConverter extends tConverterException {
 			'mg'		=> 0.001,		// Miligram
 			'g'		=> 1,			// Gram
 			'kg'		=> 1000,		// Kilogram
-			'ton'		=> 1000000,		// Ton
+			'ton'		=> 1000000		// Ton
 		)
 
 	);
@@ -53,7 +53,7 @@ class tConverter extends tConverterException {
 	* @var from, array
 	* @var to, string
 	*/
-	public function convert ($unit_type, $from = array(), $to) {
+	public function convert ($unit_type, array $from, $to) {
 
 		// Check: empty variables
 		if(!$from[0] || !$from[1] || !$to)
