@@ -50,8 +50,8 @@ class tConverter extends tConverterException {
 
 	/**
 	* Convert Method
-	* @var from, array
-	* @var to, string
+	* @param from, array
+	* @param to, string
 	*/
 	public function convert ($unit_type, array $from, $to) {
 
@@ -78,7 +78,7 @@ class tConverter extends tConverterException {
 class tConverterException extends Exception {
 
 	/**
-	* @var type
+	* @param type
 	*/
 	public function __construct ($type) {
 
